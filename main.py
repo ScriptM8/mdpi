@@ -332,7 +332,7 @@ def main():
             print(f"   Cluster size {len(c)}: {c}")
     else:
         print("\nNo co-author clusters with more than 2 members found.")
-    exit(0)
+
     # 5. Visualization
     visualize_partially_directed(G, HTML_name)
 
